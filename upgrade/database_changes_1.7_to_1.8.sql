@@ -1,0 +1,1 @@
+INSERT INTO `configurations` (`id`, `category_name`, `name`, `value`) VALUES (NULL, 'system', 'default_language', 'english');

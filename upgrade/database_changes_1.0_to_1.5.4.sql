@@ -1,0 +1,2 @@
+ALTER TABLE `leads` ADD `project_id` INT UNSIGNED NOT NULL DEFAULT '0' AFTER `notes`;
+ALTER TABLE `companies` ADD `vat_no` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL AFTER `address`;
